@@ -1,0 +1,155 @@
+/* *{
+    background-image: './';    
+
+} */
+.background{
+    position: relative;
+    background-color: rgb(8, 8, 145);
+}
+/* .background:before{
+    background-image: url(../assets/MOPAWA.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover; 
+    height: 100%;
+    width: 100%;
+    opacity: 5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    content: ' ';
+    background-color: blue;
+    
+} */
+
+.header{
+    /* margin-top: 20px; */
+    height: 80px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.contact{
+    font-size: 25px;
+    color: #fff;
+}
+
+.contactSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.depo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    
+}
+
+@media screen and (max-width:767px){
+    .background{
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+       
+    }
+    
+    .Nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header{
+        padding: 20px;
+    }
+    .power{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .rect{
+        width:80%;
+        height: 40px;
+        display: flex;
+        flex:1;
+        align-items: center;
+        justify-content: center;
+        padding: 10px
+    }
+    .rect h2{
+       font-size: 15px;
+       text-align: center;
+    }
+    .how h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .howto p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .howto2 p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .contact {
+        font-size: 15px;
+        text-align: center;
+        color: yellow;
+       
+    }
+    .contactSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        
+    }
+    .depo{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}
