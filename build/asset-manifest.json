@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mopawa/static/css/main.e29aaebb.css",
-    "main.js": "/mopawa/static/js/main.9bb1f4ee.js",
-    "static/media/MOPAWA.png": "/mopawa/static/media/MOPAWA.dbad167a87772da7b9c8.png",
-    "index.html": "/mopawa/index.html",
-    "main.e29aaebb.css.map": "/mopawa/static/css/main.e29aaebb.css.map",
-    "main.9bb1f4ee.js.map": "/mopawa/static/js/main.9bb1f4ee.js.map"
+    "main.css": "/static/css/main.e29aaebb.css",
+    "main.js": "/static/js/main.648a4429.js",
+    "static/media/MOPAWA.png": "/static/media/MOPAWA.dbad167a87772da7b9c8.png",
+    "index.html": "/index.html",
+    "main.e29aaebb.css.map": "/static/css/main.e29aaebb.css.map",
+    "main.648a4429.js.map": "/static/js/main.648a4429.js.map"
   },
   "entrypoints": [
     "static/css/main.e29aaebb.css",
-    "static/js/main.9bb1f4ee.js"
+    "static/js/main.648a4429.js"
   ]
 }
