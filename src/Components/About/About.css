@@ -1,0 +1,115 @@
+/* *{
+    background-image: './';    
+
+} */
+.background{
+    position: relative;
+    background-color: rgb(8, 8, 145);
+}
+/* .background:before{
+    background-image: url(../assets/MOPAWA.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover; 
+    height: 100%;
+    width: 100%;
+    opacity: 5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    content: ' ';
+    background-color: blue;
+    
+} */
+
+.header{
+    /* margin-top: 20px; */
+    height: 80px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(2, 2, 2, 0.75), rgba(255, 255, 255, 0));
+}
+
+
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+
+.depo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    
+}
+
+@media screen and (max-width:767px){
+    
+    
+   
+    .power{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .rect{
+        width:80%;
+        height: 40px;
+        display: flex;
+        flex:1;
+        align-items: center;
+        justify-content: center;
+        padding: 10px
+    }
+    .rect h3{
+       font-size: 15px;
+       text-align: center;
+    }
+    .how h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .howto p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .howto2 p{
+        font-size: 10px;
+        text-align: center;
+    }
+   
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        
+    }
+    .depo{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+}

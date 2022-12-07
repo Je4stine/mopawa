@@ -1,10 +1,12 @@
 import './App.css';
-import HomePage from './Screens/HomePage';
+import HomeScreen from './Screens/HomeScreen';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div >
-     <HomePage/>
+     <HomeScreen/>
     </div>
   );
 }

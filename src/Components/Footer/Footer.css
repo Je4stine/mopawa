@@ -1,0 +1,58 @@
+.FootCont{
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+}
+.Contact1{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.Whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social a{
+    text-decoration: none;
+}
+.line{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+
+@media screen and (max-width:767px){
+    .social {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+    .FootCont{
+        height: auto;
+    }
+    .Contact1{
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Address{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

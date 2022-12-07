@@ -1,0 +1,50 @@
+.NavContainer{
+    height: 80px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.NavContainer h1{
+    color: #fff;
+}
+.Logo{
+    height:60px;
+    margin-left: 20px;
+}
+
+
+.Links a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+}
+.Links a:hover{
+    color: yellow;
+}
+
+.title a{
+    text-decoration: none;
+    color: #fff;
+}
+.title a:hover{
+    color: yellow;
+}
+
+@media screen and (max-width:767px){
+    .Links a{
+        display: none;
+    }
+    .NavContainer h1{
+        display: none;
+        
+    }
+    .NavContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+}
